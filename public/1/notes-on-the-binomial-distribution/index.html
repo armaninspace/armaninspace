@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.26" />
+
+
+<title>Notes on the Binomial distribution - Arman Anwar -- Lost in Space</title>
+<meta property="og:title" content="Notes on the Binomial distribution - Arman Anwar -- Lost in Space">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/armaninspace">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/arman-anwar-a107961/">LinkedIn</a></li>
+    
+    <li><a href="https://twitter.com/armaninspace">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Notes on the Binomial distribution</h1>
+
+    
+    <span class="article-date">0001/01/01</span>
+    
+
+    <div class="article-content">
+      <p>Binomial distribution describes the number of successes in a series of <span class="math inline">\(n\)</span> independent identical experiments: <span class="math inline">\(X=k\)</span> if exactly <span class="math inline">\(k\)</span> experiments out of <span class="math inline">\(n\)</span> were successfull, while others were not.</p>
+<p>Parameters: <span class="math inline">\(n\)</span> – number of experiments, <span class="math inline">\(p\)</span> – probability of a success in a single experiment.</p>
+<p>Values: <span class="math inline">\(\{0,1,2,\ldots,n\}.\)</span></p>
+<p>Probability mass function: <span class="math display">\[
+P(X=k)={n\choose k}p^k(1-p)^{n-k}, \ k=0,1,2,\ldots,n.
+\]</span></p>
+<p>{} Let <span class="math inline">\(\xi_k,\)</span> <span class="math inline">\(k=1,2,\ldots,n,\)</span> be the result of <span class="math inline">\(k\)</span>-th experiment, i.e. <span class="math inline">\(\xi_k=1\)</span> if <span class="math inline">\(k\)</span>-th experiment was successfull, and <span class="math inline">\(\xi_k=0\)</span> otherwise. Then <span class="math display">\[
+X=\xi_1+\xi_2+\ldots+\xi_n,
+\]</span> By assumption, <span class="math inline">\(\xi_1,\ldots,\xi_n\)</span> are independent and each has a Bernoulli distribution with parameter <span class="math inline">\(p.\)</span> Event <span class="math inline">\(\{X=k\}\)</span> means that exactly <span class="math inline">\(k\)</span> variables of <span class="math inline">\(\xi_1\ldots,\xi_n\)</span> equal to <span class="math inline">\(1\)</span> and others are equal to <span class="math inline">\(0.\)</span> There are <span class="math inline">\({n\choose k}\)</span> possibilities to choose variables that are equal to <span class="math inline">\(1.\)</span> Each of them is <span class="math inline">\(1\)</span> with probability <span class="math inline">\(p,\)</span> other <span class="math inline">\(n-k\)</span> variables are <span class="math inline">\(0\)</span> each with probability <span class="math inline">\(1-p.\)</span></p>
+<p>Moment generating function: <span class="math display">\[
+M(t)=(1-p+pe^t)^n
+\]</span></p>
+<p>{} <span class="math display">\[
+M(t)=Ee^{t(\xi_1+\ldots+\xi_n)}=
+\]</span> using independence <span class="math display">\[
+=Ee^{t\xi_1}Ee^{t\xi_2}\ldots Ee^{t\xi_n}=(pe^t+1-p)^n
+\]</span></p>
+<p>Expectation: <span class="math inline">\(EX=np\)</span></p>
+<p>Variance: <span class="math inline">\(V(X)=np(1-p)\)</span></p>
+<p>{} Expectation is the first derivative <span class="math inline">\(M&#39;(0).\)</span> We have <span class="math display">\[
+M&#39;(t)=n(pe^t+1-p)^{n-1}pe^t, \ EX=M&#39;(0)=np.
+\]</span> Second moment is the second derivative <span class="math inline">\(M&#39;&#39;(0).\)</span> We have <span class="math display">\[
+M&#39;&#39;(t)=n(n-1)(pe^t+1-p)^{n-1}p^2e^{2t}+n(pe^t+1-p)^{n-1}pe^t, \]</span> <span class="math display">\[
+ EX^2=M&#39;&#39;(0)=n(n-1)p^2+np.
+\]</span> Variance is <span class="math display">\[
+V(X)=EX^2-(EX)^2=n(n-1)p^2+np-n^2p^2=np(1-p)
+\]</span></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.26" />
+
+
+<title>Notes on the Geometric distribution - Arman Anwar -- Lost in Space</title>
+<meta property="og:title" content="Notes on the Geometric distribution - Arman Anwar -- Lost in Space">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/armaninspace">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/arman-anwar-a107961/">LinkedIn</a></li>
+    
+    <li><a href="https://twitter.com/armaninspace">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Notes on the Geometric distribution</h1>
+
+    
+    <span class="article-date">0001/01/01</span>
+    
+
+    <div class="article-content">
+      <p>Consider simple experiment with two possible outcomes: success or failure. Geometric distribution describes the number of successes in a sequence of independent experiments performed until the first failed one. Formally, if <span class="math inline">\(\xi_1,\xi_2,\ldots\)</span> are results of experiments (that is all <span class="math inline">\(\xi\)</span> are independent and have Bernoulli distribution), then the geometric random variables is <span class="math display">\[
+X=\min\{n\geq 0:\xi_{n+1}=0\}.
+\]</span> (There are other modifications of a geometric distribution, for example when the first fail is also counted).</p>
+<p>Parameters: <span class="math inline">\(p\)</span> – probability of a success in a single experiment.</p>
+<p>Values: <span class="math inline">\(\{0,1,2,\ldots\}.\)</span></p>
+<p>Probability mass function: <span class="math display">\[
+P(X=k)=p^k(1-p), \ k\geq 0.
+\]</span></p>
+<p>{} The event <span class="math inline">\(X=k\)</span> means that first <span class="math inline">\(k\)</span> experiments were successfull, and <span class="math inline">\((k+1)-\)</span>st was not: <span class="math display">\[
+P(X=k)=P(\xi_1=1,\ldots,\xi_{k}=1,\xi_{k+1}=0)=
+\]</span> by independence <span class="math display">\[
+=P(\xi_1=1)\ldots P(\xi_{k}=1)P(\xi_{k+1}=0)=p^{k}(1-p).
+\]</span></p>
+<p>Moment generating function: <span class="math display">\[
+M(t)=\frac{(1-p)e^t}{1-pe^t}, \ t&lt;
+\ln\frac{1}{p}
+\]</span></p>
+<p>{} <span class="math display">\[
+M(t)=Ee^{tX}=
+\]</span> using probability mass function <span class="math display">\[
+=\sum^\infty_{k=0} e^{tk}p^{k}(1-p)=(1-p)\sum^\infty_{k=0} (pe^t)^{k}=
+\]</span> the sum of a geometric progression with a multiple <span class="math inline">\(pe^t&lt;1\)</span> (condition on <span class="math inline">\(t!\)</span>) <span class="math display">\[
+=\frac{1-p}{1-pe^t}
+\]</span></p>
+<p>Expectation: <span class="math inline">\(EX=\frac{p}{1-p}\)</span></p>
+<p>Variance: <span class="math inline">\(V(X)=\frac{p}{(1-p)^2}\)</span></p>
+<p>{} Expectation is the first derivative <span class="math inline">\(M&#39;(0).\)</span> We have <span class="math display">\[
+M&#39;(t)=\frac{(1-p)pe^t}{(1-pe^t)^2}
+\]</span> <span class="math display">\[
+EX=\frac{p}{1-p}
+\]</span> Second moment is the second derivative <span class="math inline">\(M&#39;&#39;(0).\)</span> We have <span class="math display">\[
+M&#39;&#39;(t)=\frac{(1-p)pe^t}{(1-pe^t)^2}+\frac{2(1-p)p^2e^{2t}}{(1-pe^t)^3}
+\]</span> <span class="math display">\[
+EX^2=\frac{p}{1-p}+\frac{2p^2}{(1-p)^2}
+\]</span> Variance is <span class="math display">\[
+V(X)=\frac{p}{1-p}+\frac{p^2}{(1-p)^2}=\frac{p}{(1-p)^2}
+\]</span></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+
