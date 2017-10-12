@@ -1,15 +1,72 @@
----
-title: Simple Example on a Decision Rules, Admissibility, etc.
-author: ''
-date: ''
-slug: simple-example-of-decision-rules-admissibility
-categories: [bayesian, decision-rule]
-tags: []
----
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.26" />
+
+
+<title>Simple Example on a Decision Rules, Admissibility, etc. - Arman Anwar -- Lost in Space</title>
+<meta property="og:title" content="Simple Example on a Decision Rules, Admissibility, etc. - Arman Anwar -- Lost in Space">
 
 
 
-<p>We start with <span class="math inline">\(\theta&gt;0\)</span> and <span class="math inline">\(E[X|\theta]=\theta\)</span> and <span class="math inline">\(Var[X|\theta]=\theta^2\)</span></p>
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Arman Anwar">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/">About</a></li>
+    
+    <li><a href="https://github.com/armaninspace">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/arman-anwar-a107961/">LinkedIn</a></li>
+    
+    <li><a href="/post">RandomStuff</a></li>
+    
+    <li><a href="https://twitter.com/armaninspace">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Simple Example on a Decision Rules, Admissibility, etc.</h1>
+
+    
+
+    <div class="article-content">
+      <p>We start with <span class="math inline">\(\theta&gt;0\)</span> and <span class="math inline">\(E[X|\theta]=\theta\)</span> and <span class="math inline">\(Var[X|\theta]=\theta^2\)</span></p>
 <p>We have a class of decision rules that are <span class="math inline">\(S=\{\delta_c(X)=cX, 0 &lt; c &lt; 1\}\)</span></p>
 <p>and we’re give the standard squared loss funciton <span class="math inline">\(L(\theta,a) = (\theta - a)^2\)</span></p>
 <p>To find a decision rule in <span class="math inline">\(S\)</span> that is admissible means finding a decision rule <span class="math inline">\(\delta_{c}\)</span> for there exists no other decision rule that is R-better than <span class="math inline">\(\delta_{c}\)</span></p>
@@ -49,3 +106,33 @@ R(\theta,\delta_{c})=\theta^2 - 2c\theta E[X] + c^2Var[X] + c^2E[X]^2 \\
 =\theta^2 - 2c\theta^2 + 2c^2\theta^2   \\
 =\theta^2
 \end{align}\]</span>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            &copy; Arman Anwar 2000 -- Today
+          </li>
+          
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

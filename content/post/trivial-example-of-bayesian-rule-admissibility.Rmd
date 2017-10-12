@@ -1,8 +1,8 @@
 ---
-title: Trivial Example of Bayesian Rule Admissibility
+title: Simple Example on a Decision Rules, Admissibility, etc.
 author: ''
 date: ''
-slug: trivial-example-of-bayesian-rule-admissibility
+slug: simple-example-of-decision-rules-admissibility
 categories: [bayesian, decision-rule]
 tags: []
 ---
@@ -12,8 +12,6 @@ We start with $\theta>0$ and $E[X|\theta]=\theta$ and $Var[X|\theta]=\theta^2$
 We have a class of decision rules that are $S=\{\delta_c(X)=cX, 0 < c < 1\}$
 
 and we're give the standard squared loss funciton $L(\theta,a) = (\theta - a)^2$
-
-### (a)
 
 To find a decision rule in $S$ that is admissible means finding a decision rule $\delta_{c}$ for there exists no other decision rule that is R-better than $\delta_{c}$ 
 
@@ -49,9 +47,7 @@ E[\theta^2]-2c\theta E[X]+c^2E[X^2] = c^2Var[X] + (\theta -cE[X])^2 \\
 E[X^2] = Var[X] + E[X]^2 
 \end{align}
 
-
-
- next let us substitute it back into our previous result:
+next let us substitute it back into our previous result:
 
 \begin{align}
 R(\theta,\delta_{c})=\theta^2 - 2c\theta E[X] +c^2E[X^2] \\

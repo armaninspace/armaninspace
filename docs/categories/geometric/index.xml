@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geometric on Arman Anwar -- Lost in Space</title>
-    <link>/categories/geometric/</link>
+    <link>https://armaninspace.site.github.io/categories/geometric/</link>
     <description>Recent content in Geometric on Arman Anwar -- Lost in Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/categories/geometric/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://armaninspace.site.github.io/categories/geometric/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Notes on the Geometric distribution</title>
-      <link>/1/notes-on-the-geometric-distribution/</link>
+      <link>https://armaninspace.site.github.io/1/notes-on-the-geometric-distribution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/1/notes-on-the-geometric-distribution/</guid>
+      <guid>https://armaninspace.site.github.io/1/notes-on-the-geometric-distribution/</guid>
       <description>Consider simple experiment with two possible outcomes: success or failure. Geometric distribution describes the number of successes in a sequence of independent experiments performed until the first failed one. Formally, if \(\xi_1,\xi_2,\ldots\) are results of experiments (that is all \(\xi\) are independent and have Bernoulli distribution), then the geometric random variables is \[ X=\min\{n\geq 0:\xi_{n+1}=0\}. \] (There are other modifications of a geometric distribution, for example when the first fail is also counted).</description>
     </item>
     

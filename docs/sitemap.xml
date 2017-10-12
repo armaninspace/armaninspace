@@ -3,137 +3,137 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>https://armaninspace.site.github.io/</loc>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://armaninspace.site.github.io/about/</loc>
   </url>
   
   <url>
-    <loc>/categories/bayesian/</loc>
+    <loc>https://armaninspace.site.github.io/categories/bayesian/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/bernoulli/</loc>
+    <loc>https://armaninspace.site.github.io/categories/bernoulli/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/beta/</loc>
+    <loc>https://armaninspace.site.github.io/categories/beta/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/binomial/</loc>
+    <loc>https://armaninspace.site.github.io/categories/binomial/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://armaninspace.site.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/conjugate/</loc>
+    <loc>https://armaninspace.site.github.io/categories/conjugate/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/decision-rule/</loc>
+    <loc>https://armaninspace.site.github.io/categories/decision-rule/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/elementary/</loc>
+    <loc>https://armaninspace.site.github.io/categories/elementary/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/geometric/</loc>
+    <loc>https://armaninspace.site.github.io/categories/geometric/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/hypergeometric/</loc>
+    <loc>https://armaninspace.site.github.io/categories/hypergeometric/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/multinomial/</loc>
+    <loc>https://armaninspace.site.github.io/categories/multinomial/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/negative-binomial/</loc>
+    <loc>https://armaninspace.site.github.io/categories/negative-binomial/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/1/notes-on-bernoulli/</loc>
+    <loc>https://armaninspace.site.github.io/1/notes-on-bernoulli/</loc>
   </url>
   
   <url>
-    <loc>/1/notes-on-the-binomial-distribution/</loc>
+    <loc>https://armaninspace.site.github.io/1/notes-on-the-binomial-distribution/</loc>
   </url>
   
   <url>
-    <loc>/1/notes-on-the-geometric-distribution/</loc>
+    <loc>https://armaninspace.site.github.io/1/notes-on-the-geometric-distribution/</loc>
   </url>
   
   <url>
-    <loc>/1/notes-on-the-hypergeometric-distribution/</loc>
+    <loc>https://armaninspace.site.github.io/1/notes-on-the-hypergeometric-distribution/</loc>
   </url>
   
   <url>
-    <loc>/1/notes-on-the-multinomial-distribution/</loc>
+    <loc>https://armaninspace.site.github.io/1/notes-on-the-multinomial-distribution/</loc>
   </url>
   
   <url>
-    <loc>/1/notes-on-the-negative-binomial-distribution/</loc>
+    <loc>https://armaninspace.site.github.io/1/notes-on-the-negative-binomial-distribution/</loc>
   </url>
   
   <url>
-    <loc>/1/notes-on-the-poisson-distribution/</loc>
+    <loc>https://armaninspace.site.github.io/1/notes-on-the-poisson-distribution/</loc>
   </url>
   
   <url>
-    <loc>/categories/poisson/</loc>
+    <loc>https://armaninspace.site.github.io/categories/poisson/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/posterior/</loc>
+    <loc>https://armaninspace.site.github.io/categories/posterior/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/1/exploring-the-evolution-of-a-beta-distribition-with-the-arrival-of-data/</loc>
+    <loc>https://armaninspace.site.github.io/1/exploring-the-evolution-of-a-beta-distribition-with-the-arrival-of-data/</loc>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://armaninspace.site.github.io/post/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/probability/</loc>
+    <loc>https://armaninspace.site.github.io/categories/probability/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/statistics/</loc>
+    <loc>https://armaninspace.site.github.io/1/simple-example-of-decision-rules-admissibility/</loc>
+  </url>
+  
+  <url>
+    <loc>https://armaninspace.site.github.io/categories/statistics/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://armaninspace.site.github.io/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/1/trivial-example-of-bayesian-rule-admissibility/</loc>
   </url>
   
 </urlset>
