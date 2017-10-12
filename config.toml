@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://armaninspace.github.io/"
 languageCode = "en-us"
 title = "Arman Anwar -- Lost in Space"
 theme = "hugo-lithium-theme"
