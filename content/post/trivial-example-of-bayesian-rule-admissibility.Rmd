@@ -1,7 +1,5 @@
 ---
 title: Simple Example on a Decision Rules, Admissibility, etc.
-author: ''
-date: ''
 slug: simple-example-of-decision-rules-admissibility
 categories: [bayesian, decision-rule]
 tags: []
