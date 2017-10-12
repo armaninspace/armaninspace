@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Decision Rule on Arman Anwar -- Lost in Space</title>
-    <link>https://armaninspace.site.github.io/categories/decision-rule/</link>
+    <link>https://armanin.space/categories/decision-rule/</link>
     <description>Recent content in Decision Rule on Arman Anwar -- Lost in Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://armaninspace.site.github.io/categories/decision-rule/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://armanin.space/categories/decision-rule/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Simple Example on a Decision Rules, Admissibility, etc.</title>
-      <link>https://armaninspace.site.github.io/1/simple-example-of-decision-rules-admissibility/</link>
+      <link>https://armanin.space/1/simple-example-of-decision-rules-admissibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/1/simple-example-of-decision-rules-admissibility/</guid>
+      <guid>https://armanin.space/1/simple-example-of-decision-rules-admissibility/</guid>
       <description>We start with \(\theta&amp;gt;0\) and \(E[X|\theta]=\theta\) and \(Var[X|\theta]=\theta^2\)
 We have a class of decision rules that are \(S=\{\delta_c(X)=cX, 0 &amp;lt; c &amp;lt; 1\}\)
 and we’re give the standard squared loss funciton \(L(\theta,a) = (\theta - a)^2\)

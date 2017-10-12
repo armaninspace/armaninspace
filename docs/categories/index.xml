@@ -2,146 +2,146 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Arman Anwar -- Lost in Space</title>
-    <link>https://armaninspace.site.github.io/categories/</link>
+    <link>https://armanin.space/categories/</link>
     <description>Recent content in Categories on Arman Anwar -- Lost in Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://armaninspace.site.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://armanin.space/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bayesian</title>
-      <link>https://armaninspace.site.github.io/categories/bayesian/</link>
+      <link>https://armanin.space/categories/bayesian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/bayesian/</guid>
+      <guid>https://armanin.space/categories/bayesian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bernoulli</title>
-      <link>https://armaninspace.site.github.io/categories/bernoulli/</link>
+      <link>https://armanin.space/categories/bernoulli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/bernoulli/</guid>
+      <guid>https://armanin.space/categories/bernoulli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Beta</title>
-      <link>https://armaninspace.site.github.io/categories/beta/</link>
+      <link>https://armanin.space/categories/beta/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/beta/</guid>
+      <guid>https://armanin.space/categories/beta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Binomial</title>
-      <link>https://armaninspace.site.github.io/categories/binomial/</link>
+      <link>https://armanin.space/categories/binomial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/binomial/</guid>
+      <guid>https://armanin.space/categories/binomial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conjugate</title>
-      <link>https://armaninspace.site.github.io/categories/conjugate/</link>
+      <link>https://armanin.space/categories/conjugate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/conjugate/</guid>
+      <guid>https://armanin.space/categories/conjugate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decision Rule</title>
-      <link>https://armaninspace.site.github.io/categories/decision-rule/</link>
+      <link>https://armanin.space/categories/decision-rule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/decision-rule/</guid>
+      <guid>https://armanin.space/categories/decision-rule/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elementary</title>
-      <link>https://armaninspace.site.github.io/categories/elementary/</link>
+      <link>https://armanin.space/categories/elementary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/elementary/</guid>
+      <guid>https://armanin.space/categories/elementary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geometric</title>
-      <link>https://armaninspace.site.github.io/categories/geometric/</link>
+      <link>https://armanin.space/categories/geometric/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/geometric/</guid>
+      <guid>https://armanin.space/categories/geometric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hypergeometric</title>
-      <link>https://armaninspace.site.github.io/categories/hypergeometric/</link>
+      <link>https://armanin.space/categories/hypergeometric/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/hypergeometric/</guid>
+      <guid>https://armanin.space/categories/hypergeometric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multinomial</title>
-      <link>https://armaninspace.site.github.io/categories/multinomial/</link>
+      <link>https://armanin.space/categories/multinomial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/multinomial/</guid>
+      <guid>https://armanin.space/categories/multinomial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Negative Binomial</title>
-      <link>https://armaninspace.site.github.io/categories/negative-binomial/</link>
+      <link>https://armanin.space/categories/negative-binomial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/negative-binomial/</guid>
+      <guid>https://armanin.space/categories/negative-binomial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Poisson</title>
-      <link>https://armaninspace.site.github.io/categories/poisson/</link>
+      <link>https://armanin.space/categories/poisson/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/poisson/</guid>
+      <guid>https://armanin.space/categories/poisson/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posterior</title>
-      <link>https://armaninspace.site.github.io/categories/posterior/</link>
+      <link>https://armanin.space/categories/posterior/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/posterior/</guid>
+      <guid>https://armanin.space/categories/posterior/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Probability</title>
-      <link>https://armaninspace.site.github.io/categories/probability/</link>
+      <link>https://armanin.space/categories/probability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/probability/</guid>
+      <guid>https://armanin.space/categories/probability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistics</title>
-      <link>https://armaninspace.site.github.io/categories/statistics/</link>
+      <link>https://armanin.space/categories/statistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armaninspace.site.github.io/categories/statistics/</guid>
+      <guid>https://armanin.space/categories/statistics/</guid>
       <description></description>
     </item>
     
