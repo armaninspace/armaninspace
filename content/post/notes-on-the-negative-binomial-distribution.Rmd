@@ -21,7 +21,9 @@ $$
 P(X=k)={k+r-1\choose k}p^{k}(1-p)^r, \ k\geq 0.
 $$
 
-{\it Derivation.} The event $X=k$ means that when the $r-$th failure occurd there were exactly $k$ successes. In particular it means that the process stopeed at $(k+r)$-th experiment:
+### Derivation
+
+The event $X=k$ means that when the $r-$th failure occurd there were exactly $k$ successes. In particular it means that the process stopeed at $(k+r)$-th experiment:
 $$
 P(X=k)=P(\tau=k+r, S_{k+r}=k)=
 $$
@@ -46,7 +48,8 @@ M(t)=\frac{(1-p)^r}{(1-pe^t)^r}, \ t<
 $$
 
 
-{\it Proof.} 
+### Proof
+
 $$
 M(t)=Ee^{tX}=
 $$
@@ -63,7 +66,9 @@ Expectation: $EX=\frac{pr}{1-p}$
 
 Variance: $V(X)=\frac{pr}{(1-p)^2}$
 
-{\it Derivation.} Expectation is the first derivative $M'(0).$ We have 
+### Derivation
+
+Expectation is the first derivative $M'(0).$ We have 
 $$
 M'(t)=r\frac{p(1-p)^re^t}{(1-pe^t)^{r+1}}
 $$

@@ -29,7 +29,9 @@ Expectation: $EX=n\frac{K}{N}$
 
 Variance: $V(X)=\frac{nK(N-k)(N-n)}{N^2(N-1)}$
 
-{\it Derivation.} We find expectation  as a sum over all possible values of $X:$
+### Derivation
+
+We find expectation  as a sum over all possible values of $X:$
 $$
 EX=\sum^n_{k=0}k \frac{{K\choose k}{N-K\choose n-k}}{{N\choose n}}=
 $$

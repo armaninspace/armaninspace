@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decision Rule on Arman Anwar -- Lost in Space</title>
+    <link>/categories/decision-rule/</link>
+    <description>Recent content in Decision Rule on Arman Anwar -- Lost in Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/categories/decision-rule/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Trivial Example of Bayesian Rule Admissibility</title>
+      <link>/1/trivial-example-of-bayesian-rule-admissibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/trivial-example-of-bayesian-rule-admissibility/</guid>
+      <description>We start with \(\theta&amp;gt;0\) and \(E[X|\theta]=\theta\) and \(Var[X|\theta]=\theta^2\)
+We have a class of decision rules that are \(S=\{\delta_c(X)=cX, 0 &amp;lt; c &amp;lt; 1\}\)
+and we’re give the standard squared loss funciton \(L(\theta,a) = (\theta - a)^2\)
+(a) To find a decision rule in \(S\) that is admissible means finding a decision rule \(\delta_{c}\) for there exists no other decision rule that is R-better than \(\delta_{c}\)
+We can find such a decision rule by finding \(\delta_{c}\) for which the Risk is the minimum possible.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Arman Anwar -- Lost in Space</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Arman Anwar -- Lost in Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bayesian</title>
+      <link>/categories/bayesian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/bayesian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bernoulli</title>
+      <link>/categories/bernoulli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/bernoulli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beta</title>
+      <link>/categories/beta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/beta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Binomial</title>
+      <link>/categories/binomial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/binomial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conjugate</title>
+      <link>/categories/conjugate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/conjugate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decision Rule</title>
+      <link>/categories/decision-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/decision-rule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elementary</title>
+      <link>/categories/elementary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/elementary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geometric</title>
+      <link>/categories/geometric/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/geometric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hypergeometric</title>
+      <link>/categories/hypergeometric/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/hypergeometric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multinomial</title>
+      <link>/categories/multinomial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/multinomial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Negative Binomial</title>
+      <link>/categories/negative-binomial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/negative-binomial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poisson</title>
+      <link>/categories/poisson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/poisson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posterior</title>
+      <link>/categories/posterior/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/posterior/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probability</title>
+      <link>/categories/probability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/probability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>/categories/statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/statistics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

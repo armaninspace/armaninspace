@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Arman Anwar -- Lost in Space</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Arman Anwar -- Lost in Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes on the Bernoulli distribution</title>
+      <link>/1/notes-on-bernoulli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/notes-on-bernoulli/</guid>
+      <description>Bernoulli distribution describes an outcome of a single experiment with two possible outcomes (success or failure): \(X=1\) if an experiment was successfull, \(X=0\) if it was not.
+Parameter: \(p\) – probability of a success.
+Values: \(\{0,1\}.\)
+Probability mass function: \[ P(X=1)=p, \ P(X=0)=1-p. \]
+Moment generating function: \[ M(t)=1-p+pe^t \]
+Proof \[ M(t)=Ee^{tX}=e^t\cdot P(X=1)+e^0\cdot P(X=0)=pe^t+1-p \]
+All moments: \[ EX^n=p, \ n\geq 1. \]
+ Proof Observe that \(X^n=X,\) for \(n\geq 1.</description>
+    </item>
+    
+    <item>
+      <title>Notes on the Binomial distribution</title>
+      <link>/1/notes-on-the-binomial-distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/notes-on-the-binomial-distribution/</guid>
+      <description>Binomial distribution describes the number of successes in a series of \(n\) independent identical experiments: \(X=k\) if exactly \(k\) experiments out of \(n\) were successfull, while others were not.
+Parameters: \(n\) – number of experiments, \(p\) – probability of a success in a single experiment.
+Values: \(\{0,1,2,\ldots,n\}.\)
+Probability mass function: \[ P(X=k)={n\choose k}p^k(1-p)^{n-k}, \ k=0,1,2,\ldots,n. \]
+Derivation Let \(\xi_k,\) \(k=1,2,\ldots,n,\) be the result of \(k\)-th experiment, i.e. \(\xi_k=1\) if \(k\)-th experiment was successfull, and \(\xi_k=0\) otherwise.</description>
+    </item>
+    
+    <item>
+      <title>Notes on the Geometric distribution</title>
+      <link>/1/notes-on-the-geometric-distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/notes-on-the-geometric-distribution/</guid>
+      <description>Consider simple experiment with two possible outcomes: success or failure. Geometric distribution describes the number of successes in a sequence of independent experiments performed until the first failed one. Formally, if \(\xi_1,\xi_2,\ldots\) are results of experiments (that is all \(\xi\) are independent and have Bernoulli distribution), then the geometric random variables is \[ X=\min\{n\geq 0:\xi_{n+1}=0\}. \] (There are other modifications of a geometric distribution, for example when the first fail is also counted).</description>
+    </item>
+    
+    <item>
+      <title>Notes on the Hypergeometric distribution</title>
+      <link>/1/notes-on-the-hypergeometric-distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/notes-on-the-hypergeometric-distribution/</guid>
+      <description>In contrast to binomial distribution where the probability of a success is the same for each experiment, the hypergeometric distribution describes situation when the probability of success decreases after each success (and increases after each failure). Each experiment is modelled by an urn containing \(N\) balls, \(K\) of them being ``lucky’’ (and \(N-K\) unlucky). \(n\) draws are performed from an urn and the hypergeometric random variable \(X\) is the numebr of lucky balls drawn.</description>
+    </item>
+    
+    <item>
+      <title>Notes on the Multinomial distribution</title>
+      <link>/1/notes-on-the-multinomial-distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/notes-on-the-multinomial-distribution/</guid>
+      <description>A multidimensional generalization of a binomial distribution. Assume that in each experiment there are \(k\) possible outcomes (enumerated by \(1,2,\ldots,k\)). Probabilities of these outcomes are \(p_1,p_2,\ldots,p_k,\) so that \[ p_1,\ldots,p_k\geq 0, \ p_1+\ldots+p_k=1. \] Multinomial distribution describeds the number of outcomes of each type in \(n\) independent repetitions of the experiment:
+\((X_1,\ldots,X_k)=(m_1,\ldots,m_k)\) if exactly \(m_1\) experiments resulted in the outcome \(1,\) exactly \(m_2\) experiments resulted in the outcome \(2,\ldots,\) exactly \(m_k\) experiments resulted in the outcome \(k.</description>
+    </item>
+    
+    <item>
+      <title>Notes on the Negative binomial distribution</title>
+      <link>/1/notes-on-the-negative-binomial-distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/notes-on-the-negative-binomial-distribution/</guid>
+      <description>A generalization of a geometric distribution. Negative binomial distribution describes the number of successes in a sequence of independent experiments performed until the \(r-\)th failure. Formally, let \(\xi_1,\xi_2,\ldots\) are results of experiments (that is all \(\xi\) are independent and have Bernoulli distribution). \(S_n=\xi_1+\ldots+\xi_n\) is the cumulative sum of \(\xi&amp;#39;\)s that represents the number of successes. The fact that there were \(r\) failures can be written as \(S_n=n-r.\) So, the negative binomial random variables is \[ X=S_\tau, \tau=\min\{n\geq 1:S_n=n-r\} \] (here \(\tau\) is the number of the last experiment, when \(r\)-th failure occured).</description>
+    </item>
+    
+    <item>
+      <title>Notes on the Poisson distribution</title>
+      <link>/1/notes-on-the-poisson-distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/notes-on-the-poisson-distribution/</guid>
+      <description>Poisson distribution arises as a limit of binomial distribution in the following limiting scheme. Assume that the numebr of trials \(n\) increases, but the probability of success \(p\) decreases in such a way that the limit exists \[ np\to \lambda\in (0,\infty) \]
+Parameter: \(\lambda\) – intensity
+Values: \(\{0,1,2,\ldots\}\)
+Probability mass function: \[ P(X=k)=e^{-\lambda} \frac{\lambda^k}{k!}, \ k\geq 0. \]
+Derivation The probability of \(k\) successes for binomial distribution with parameters \((n,p)\) is equal to \[ {n\choose k}p^k(1-p)^{n-k}.</description>
+    </item>
+    
+    <item>
+      <title>Posterior Beta Distribition evolution</title>
+      <link>/1/exploring-the-evolution-of-a-beta-distribition-with-the-arrival-of-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/exploring-the-evolution-of-a-beta-distribition-with-the-arrival-of-data/</guid>
+      <description>rm(list=ls()) set.seed(1010101) theta &amp;lt;- 0.5 N &amp;lt;- 200 data &amp;lt;- rbinom(N,1,theta) a &amp;lt;- 1 b &amp;lt;- 1 for (i in 1:N){ # suppose patients are treated one-by-one if (i &amp;lt; 10 || i %% 10 == 1 ) { theta.x &amp;lt;- seq(0.01, .99, 0.01) p.y &amp;lt;- dbeta(theta.x,a,b) plot(theta.x,p.y,main = paste(&amp;quot;N=&amp;quot;,i,&amp;quot;a=&amp;quot;,a,&amp;quot;b=&amp;quot;,b),type=&amp;quot;l&amp;quot;) } if (data[i]==1){ # if the i-th is cured by the treatment # basically add 1 to a for X===1 a &amp;lt;- a + 1 } else { # if the i-th is NOT cured by the treatment # basically add 1 to b for X===0 b &amp;lt;- b + 1 } # probability of theta&amp;gt;1/2 based on the posterior distribution Ptheta &amp;lt;- 1 - pbeta(0.</description>
+    </item>
+    
+    <item>
+      <title>Trivial Example of Bayesian Rule Admissibility</title>
+      <link>/1/trivial-example-of-bayesian-rule-admissibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/trivial-example-of-bayesian-rule-admissibility/</guid>
+      <description>We start with \(\theta&amp;gt;0\) and \(E[X|\theta]=\theta\) and \(Var[X|\theta]=\theta^2\)
+We have a class of decision rules that are \(S=\{\delta_c(X)=cX, 0 &amp;lt; c &amp;lt; 1\}\)
+and we’re give the standard squared loss funciton \(L(\theta,a) = (\theta - a)^2\)
+(a) To find a decision rule in \(S\) that is admissible means finding a decision rule \(\delta_{c}\) for there exists no other decision rule that is R-better than \(\delta_{c}\)
+We can find such a decision rule by finding \(\delta_{c}\) for which the Risk is the minimum possible.</description>
+    </item>
+    
+  </channel>
+</rss>

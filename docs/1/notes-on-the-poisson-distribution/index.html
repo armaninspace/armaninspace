@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.26" />
+
+
+<title>Notes on the Poisson distribution - Arman Anwar -- Lost in Space</title>
+<meta property="og:title" content="Notes on the Poisson distribution - Arman Anwar -- Lost in Space">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Arman Anwar">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/">About</a></li>
+    
+    <li><a href="https://github.com/armaninspace">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/arman-anwar-a107961/">LinkedIn</a></li>
+    
+    <li><a href="/post">RandomStuff</a></li>
+    
+    <li><a href="https://twitter.com/armaninspace">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Notes on the Poisson distribution</h1>
+
+    
+
+    <div class="article-content">
+      <p>Poisson distribution arises as a limit of binomial distribution in the following limiting scheme. Assume that the numebr of trials <span class="math inline">\(n\)</span> increases, but the probability of success <span class="math inline">\(p\)</span> decreases in such a way that the limit exists <span class="math display">\[
+np\to \lambda\in (0,\infty)
+\]</span></p>
+<p>Parameter: <span class="math inline">\(\lambda\)</span> – intensity</p>
+<p>Values: <span class="math inline">\(\{0,1,2,\ldots\}\)</span></p>
+<p>Probability mass function: <span class="math display">\[
+P(X=k)=e^{-\lambda} \frac{\lambda^k}{k!}, \ k\geq 0.
+\]</span></p>
+<div id="derivation" class="section level3">
+<h3>Derivation</h3>
+<p>The probability of <span class="math inline">\(k\)</span> successes for binomial distribution with parameters <span class="math inline">\((n,p)\)</span> is equal to <span class="math display">\[
+{n\choose k}p^k(1-p)^{n-k}.
+\]</span> Let us find its limit when <span class="math inline">\(n\to \infty.\)</span> <span class="math display">\[
+\lim_{n\to\infty}{n\choose k}p^k(1-p)^k=\frac{1}{k!}\lim_{n\to\infty}\frac{n!}{(n-k)!}p^k(1-p)^{n-k}=
+\]</span> by Stirling formula, <span class="math inline">\(n!\sim \sqrt{2\pi n}\frac{n^n}{e^n}\)</span> <span class="math display">\[
+=\frac{1}{k!}\lim_{n\to\infty}\frac{\sqrt{2\pi n}n^ne^{n-k}}{\sqrt{2\pi(n-k)}(n-k)^{n-k}e^n}p^k(1-p)^{n-k}=
+\]</span> <span class="math display">\[
+=\frac{1}{e^kk!}\lim_{n\to\infty}\bigg(\frac{n}{n-k}\bigg)^{n-k}(np)^k(1-p)^{n-k}=
+\]</span> <span class="math display">\[
+=\frac{\lambda^k}{e^kk!}\lim_{n\to\infty}\bigg(1-\frac{k}{n}\bigg)^{-(n-k)}\bigg(1-\frac{np}{n}\bigg)^{n-k}=
+\]</span> use that <span class="math inline">\((1+x/n)^n\to e^x\)</span> <span class="math display">\[
+=\frac{e^ke^{-\lambda}\lambda^k}{e^kk!}=e^{-\lambda} \frac{\lambda^k}{k!}
+\]</span></p>
+<p>Moment generating function: <span class="math display">\[
+M(t)=e^{\lambda(e^t-1)}
+\]</span></p>
+</div>
+<div id="proof" class="section level3">
+<h3>Proof</h3>
+<p><span class="math display">\[
+M(t)=Ee^{tX}=\sum^\infty_{k=0} e^{tk}e^{-\lambda} \frac{\lambda^k}{k!}=
+\]</span> <span class="math display">\[
+=e^{-\lambda}\sum^\infty_{k=0}\frac{(\lambda e^t)^k}{k!}=e^{-\lambda}e^{\lambda e^t}=e^{\lambda(e^t-1)}
+\]</span></p>
+<p>Expectation: <span class="math inline">\(EX=\lambda\)</span></p>
+<p>Variance: <span class="math inline">\(V(X)=\lambda\)</span></p>
+</div>
+<div id="derivation-1" class="section level3">
+<h3>Derivation</h3>
+<p><span class="math display">\[
+M&#39;(t)=\lambda e^t e^{\lambda(e^t-1)}, \ EX=M&#39;(0)=\lambda
+\]</span> <span class="math display">\[
+M&#39;&#39;(t)=\lambda e^t e^{\lambda(e^t-1)}+\lambda^2 e^{2t} e^{\lambda(e^t-1)}
+\]</span> <span class="math display">\[
+EX^2=M&#39;&#39;(0)=\lambda+\lambda^2
+\]</span> Variance is <span class="math display">\[
+V(X)=\lambda
+\]</span></p>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            &copy; Arman Anwar 2000 -- Today
+          </li>
+          
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

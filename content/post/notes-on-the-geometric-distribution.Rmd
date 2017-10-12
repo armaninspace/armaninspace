@@ -21,7 +21,9 @@ $$
 P(X=k)=p^k(1-p), \ k\geq 0.
 $$
 
-{\it Derivation.} The event $X=k$ means that first $k$ experiments were successfull, and $(k+1)-$st was not:
+### Derivation
+
+The event $X=k$ means that first $k$ experiments were successfull, and $(k+1)-$st was not:
 $$
 P(X=k)=P(\xi_1=1,\ldots,\xi_{k}=1,\xi_{k+1}=0)=
 $$
@@ -38,7 +40,8 @@ M(t)=\frac{(1-p)e^t}{1-pe^t}, \ t<
 $$
 
 
-{\it Proof.} 
+### Proof
+
 $$
 M(t)=Ee^{tX}=
 $$
@@ -55,7 +58,9 @@ Expectation: $EX=\frac{p}{1-p}$
 
 Variance: $V(X)=\frac{p}{(1-p)^2}$
 
-{\it Derivation.} Expectation is the first derivative $M'(0).$ We have 
+### Derivation
+
+Expectation is the first derivative $M'(0).$ We have 
 $$
 M'(t)=\frac{(1-p)pe^t}{(1-pe^t)^2}
 $$

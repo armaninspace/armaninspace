@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/bayesian/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/bernoulli/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/beta/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/binomial/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/conjugate/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/decision-rule/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/elementary/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/geometric/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/hypergeometric/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/multinomial/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/negative-binomial/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/1/notes-on-bernoulli/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/notes-on-the-binomial-distribution/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/notes-on-the-geometric-distribution/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/notes-on-the-hypergeometric-distribution/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/notes-on-the-multinomial-distribution/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/notes-on-the-negative-binomial-distribution/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/notes-on-the-poisson-distribution/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/poisson/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/posterior/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/1/exploring-the-evolution-of-a-beta-distribition-with-the-arrival-of-data/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/probability/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/statistics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/1/trivial-example-of-bayesian-rule-admissibility/</loc>
+  </url>
+  
+</urlset>

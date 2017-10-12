@@ -22,7 +22,9 @@ $$
 P(X_1=m_1,\ldots,X_k=m_k)=\frac{n!}{m_1!\ldots m_k!}p^{m_1}_{1}\ldots p^{m_k}_k.
 $$
 
-{\it Derivation.} Let $\xi_l,$ $l=1,2,\ldots,n,$  be the result of $l$-th experiment, $\xi_l\in\{1,2,\ldots,k\}.$ The event 
+### Derivation
+
+Let $\xi_l,$ $l=1,2,\ldots,n,$  be the result of $l$-th experiment, $\xi_l\in\{1,2,\ldots,k\}.$ The event 
 $$
 \{X_1=m_1,\ldots,X_k=m_k\}
 $$ 
@@ -35,7 +37,8 @@ M(t_1,\ldots,t_k)=Ee^{t_1X_1+\ldots+t_kX_k}=(p_1e^{t_1}+\ldots+p_k e^{t_k})^n
 $$
 
 
-{\it Proof.} 
+### Proof
+
 $$
 M(t_1,\ldots,t_k)=Ee^{t_1X_1+\ldots+t_kX_k}=
 $$
@@ -59,7 +62,9 @@ Variance: $V(X_j)=np_j(1-p_j),$ $1\leq j\leq k$
 Covariance: $cov(X_i,X_j)=-np_ip_j,$ $1\leq i<j\leq k.$
 
 
-{\it Derivation.} The moment generating function of a single variable $X_j$ is obtained from $M(t_1,\ldots,t_k)$ by letting $t_i=0,$ $i\ne j.$ That is 
+### Derivation
+
+The moment generating function of a single variable $X_j$ is obtained from $M(t_1,\ldots,t_k)$ by letting $t_i=0,$ $i\ne j.$ That is 
 $$
 Ee^{t_jX_j}=M(0,\ldots,0,t_j,0,\ldots,0)=(p_1+\ldots+p_{j-1}+p_j e^{t_j}+p_{j+1}+\ldots+p_k)^n=
 $$

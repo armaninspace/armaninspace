@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Binomial on Arman Anwar -- Lost in Space</title>
+    <link>/categories/binomial/</link>
+    <description>Recent content in Binomial on Arman Anwar -- Lost in Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/categories/binomial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes on the Binomial distribution</title>
+      <link>/1/notes-on-the-binomial-distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/notes-on-the-binomial-distribution/</guid>
+      <description>Binomial distribution describes the number of successes in a series of \(n\) independent identical experiments: \(X=k\) if exactly \(k\) experiments out of \(n\) were successfull, while others were not.
+Parameters: \(n\) – number of experiments, \(p\) – probability of a success in a single experiment.
+Values: \(\{0,1,2,\ldots,n\}.\)
+Probability mass function: \[ P(X=k)={n\choose k}p^k(1-p)^{n-k}, \ k=0,1,2,\ldots,n. \]
+Derivation Let \(\xi_k,\) \(k=1,2,\ldots,n,\) be the result of \(k\)-th experiment, i.e. \(\xi_k=1\) if \(k\)-th experiment was successfull, and \(\xi_k=0\) otherwise.</description>
+    </item>
+    
+  </channel>
+</rss>

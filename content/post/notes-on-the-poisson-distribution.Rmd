@@ -20,7 +20,9 @@ $$
 P(X=k)=e^{-\lambda} \frac{\lambda^k}{k!}, \ k\geq 0.
 $$
 
-{\it Derivation.} The probability of $k$ successes for binomial distribution with parameters $(n,p)$ is equal to 
+### Derivation
+
+The probability of $k$ successes for binomial distribution with parameters $(n,p)$ is equal to 
 $$
 {n\choose k}p^k(1-p)^{n-k}.
 $$
@@ -50,7 +52,8 @@ M(t)=e^{\lambda(e^t-1)}
 $$
 
 
-{\it Proof.} 
+### Proof
+
 $$
 M(t)=Ee^{tX}=\sum^\infty_{k=0} e^{tk}e^{-\lambda} \frac{\lambda^k}{k!}=
 $$
@@ -62,7 +65,8 @@ Expectation: $EX=\lambda$
 
 Variance: $V(X)=\lambda$
 
-{\it Derivation.} 
+### Derivation
+
 $$
 M'(t)=\lambda e^t e^{\lambda(e^t-1)}, \ EX=M'(0)=\lambda
 $$

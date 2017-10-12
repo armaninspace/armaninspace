@@ -22,7 +22,8 @@ M(t)=1-p+pe^t
 $$
 
 
-{\it Proof.} 
+### Proof 
+
 $$
 M(t)=Ee^{tX}=e^t\cdot P(X=1)+e^0\cdot P(X=0)=pe^t+1-p
 $$
@@ -33,7 +34,8 @@ $$
 EX^n=p, \ n\geq 1.
 $$
 
-{\it Proof}
+### Proof
+
 Observe that $X^n=X,$ for $n\geq 1.$ Further,
 $$
 EX=1\cdot P(X=1)+0\cdot P(X=0)=p+0=p

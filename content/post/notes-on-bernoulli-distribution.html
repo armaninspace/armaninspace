@@ -16,14 +16,20 @@ P(X=1)=p, \ P(X=0)=1-p.
 <p>Moment generating function: <span class="math display">\[
 M(t)=1-p+pe^t
 \]</span></p>
-<p>{} <span class="math display">\[
+<div id="proof" class="section level3">
+<h3>Proof</h3>
+<p><span class="math display">\[
 M(t)=Ee^{tX}=e^t\cdot P(X=1)+e^0\cdot P(X=0)=pe^t+1-p
 \]</span></p>
 <p>All moments: <span class="math display">\[
 EX^n=p, \ n\geq 1.
 \]</span></p>
-<p>{} Observe that <span class="math inline">\(X^n=X,\)</span> for <span class="math inline">\(n\geq 1.\)</span> Further, <span class="math display">\[
+</div>
+<div id="proof-1" class="section level3">
+<h3>Proof</h3>
+<p>Observe that <span class="math inline">\(X^n=X,\)</span> for <span class="math inline">\(n\geq 1.\)</span> Further, <span class="math display">\[
 EX=1\cdot P(X=1)+0\cdot P(X=0)=p+0=p
 \]</span></p>
 <p>Expectation: <span class="math inline">\(EX=p\)</span></p>
 <p>Variance: <span class="math inline">\(V(X)=p(1-p)\)</span></p>
+</div>

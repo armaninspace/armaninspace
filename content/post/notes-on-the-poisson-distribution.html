@@ -15,7 +15,9 @@ np\to \lambda\in (0,\infty)
 <p>Probability mass function: <span class="math display">\[
 P(X=k)=e^{-\lambda} \frac{\lambda^k}{k!}, \ k\geq 0.
 \]</span></p>
-<p>{} The probability of <span class="math inline">\(k\)</span> successes for binomial distribution with parameters <span class="math inline">\((n,p)\)</span> is equal to <span class="math display">\[
+<div id="derivation" class="section level3">
+<h3>Derivation</h3>
+<p>The probability of <span class="math inline">\(k\)</span> successes for binomial distribution with parameters <span class="math inline">\((n,p)\)</span> is equal to <span class="math display">\[
 {n\choose k}p^k(1-p)^{n-k}.
 \]</span> Let us find its limit when <span class="math inline">\(n\to \infty.\)</span> <span class="math display">\[
 \lim_{n\to\infty}{n\choose k}p^k(1-p)^k=\frac{1}{k!}\lim_{n\to\infty}\frac{n!}{(n-k)!}p^k(1-p)^{n-k}=
@@ -31,14 +33,20 @@ P(X=k)=e^{-\lambda} \frac{\lambda^k}{k!}, \ k\geq 0.
 <p>Moment generating function: <span class="math display">\[
 M(t)=e^{\lambda(e^t-1)}
 \]</span></p>
-<p>{} <span class="math display">\[
+</div>
+<div id="proof" class="section level3">
+<h3>Proof</h3>
+<p><span class="math display">\[
 M(t)=Ee^{tX}=\sum^\infty_{k=0} e^{tk}e^{-\lambda} \frac{\lambda^k}{k!}=
 \]</span> <span class="math display">\[
 =e^{-\lambda}\sum^\infty_{k=0}\frac{(\lambda e^t)^k}{k!}=e^{-\lambda}e^{\lambda e^t}=e^{\lambda(e^t-1)}
 \]</span></p>
 <p>Expectation: <span class="math inline">\(EX=\lambda\)</span></p>
 <p>Variance: <span class="math inline">\(V(X)=\lambda\)</span></p>
-<p>{} <span class="math display">\[
+</div>
+<div id="derivation-1" class="section level3">
+<h3>Derivation</h3>
+<p><span class="math display">\[
 M&#39;(t)=\lambda e^t e^{\lambda(e^t-1)}, \ EX=M&#39;(0)=\lambda
 \]</span> <span class="math display">\[
 M&#39;&#39;(t)=\lambda e^t e^{\lambda(e^t-1)}+\lambda^2 e^{2t} e^{\lambda(e^t-1)}
@@ -47,3 +55,4 @@ EX^2=M&#39;&#39;(0)=\lambda+\lambda^2
 \]</span> Variance is <span class="math display">\[
 V(X)=\lambda
 \]</span></p>
+</div>

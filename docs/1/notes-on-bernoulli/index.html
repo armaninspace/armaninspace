@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.26" />
+
+
+<title>Notes on the Bernoulli distribution - Arman Anwar -- Lost in Space</title>
+<meta property="og:title" content="Notes on the Bernoulli distribution - Arman Anwar -- Lost in Space">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Arman Anwar">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/">About</a></li>
+    
+    <li><a href="https://github.com/armaninspace">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/arman-anwar-a107961/">LinkedIn</a></li>
+    
+    <li><a href="/post">RandomStuff</a></li>
+    
+    <li><a href="https://twitter.com/armaninspace">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Notes on the Bernoulli distribution</h1>
+
+    
+
+    <div class="article-content">
+      <p>Bernoulli distribution describes an outcome of a single experiment with two possible outcomes (success or failure): <span class="math inline">\(X=1\)</span> if an experiment was successfull, <span class="math inline">\(X=0\)</span> if it was not.</p>
+<p>Parameter: <span class="math inline">\(p\)</span> – probability of a success.</p>
+<p>Values: <span class="math inline">\(\{0,1\}.\)</span></p>
+<p>Probability mass function: <span class="math display">\[
+P(X=1)=p, \ P(X=0)=1-p.
+\]</span></p>
+<p>Moment generating function: <span class="math display">\[
+M(t)=1-p+pe^t
+\]</span></p>
+<div id="proof" class="section level3">
+<h3>Proof</h3>
+<p><span class="math display">\[
+M(t)=Ee^{tX}=e^t\cdot P(X=1)+e^0\cdot P(X=0)=pe^t+1-p
+\]</span></p>
+<p>All moments: <span class="math display">\[
+EX^n=p, \ n\geq 1.
+\]</span></p>
+</div>
+<div id="proof-1" class="section level3">
+<h3>Proof</h3>
+<p>Observe that <span class="math inline">\(X^n=X,\)</span> for <span class="math inline">\(n\geq 1.\)</span> Further, <span class="math display">\[
+EX=1\cdot P(X=1)+0\cdot P(X=0)=p+0=p
+\]</span></p>
+<p>Expectation: <span class="math inline">\(EX=p\)</span></p>
+<p>Variance: <span class="math inline">\(V(X)=p(1-p)\)</span></p>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            &copy; Arman Anwar 2000 -- Today
+          </li>
+          
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

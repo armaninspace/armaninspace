@@ -5,6 +5,7 @@ theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+publishDir = "docs"
 
 [permalinks]
     post = "/:year/:slug/"
@@ -20,7 +21,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "https://www.linkedin.com/in/arman-anwar-a107961/"
 [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "/"
+[[menu.main]]
+    name = "RandomStuff"
+    url = "/post"
 
 [params]
     description = "Arman's personal site"
@@ -38,5 +42,5 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "logo.png"
     width = 50
     height = 50
-    alt = "Logo"
+    alt = "Arman Anwar"
 

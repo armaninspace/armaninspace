@@ -19,7 +19,9 @@ M(t)=\sum^{n}_{k=0}e^{tk}\frac{{K\choose k}{N-K\choose n-k}}{{N\choose n}}
 \]</span></p>
 <p>Expectation: <span class="math inline">\(EX=n\frac{K}{N}\)</span></p>
 <p>Variance: <span class="math inline">\(V(X)=\frac{nK(N-k)(N-n)}{N^2(N-1)}\)</span></p>
-<p>{} We find expectation as a sum over all possible values of <span class="math inline">\(X:\)</span> <span class="math display">\[
+<div id="derivation" class="section level3">
+<h3>Derivation</h3>
+<p>We find expectation as a sum over all possible values of <span class="math inline">\(X:\)</span> <span class="math display">\[
 EX=\sum^n_{k=0}k \frac{{K\choose k}{N-K\choose n-k}}{{N\choose n}}=
 \]</span> the summand with <span class="math inline">\(k=0\)</span> is zero <span class="math display">\[
 =\frac{1}{{N\choose n}}\sum^n_{k=1}k {K\choose k}{N-K\choose n-k}=
@@ -45,3 +47,4 @@ V(X)=EX^2-(EX)^2=EX(X-1)+EX-(EX)^2=\]</span> <span class="math display">\[
 \]</span> <span class="math display">\[
 =\frac{nKN^2-n^2KN-nK^2N+n^2K^2}{N^2(N-1)}=\frac{nK(N-k)(N-n)}{N^2(N-1)}
 \]</span></p>
+</div>
