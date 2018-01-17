@@ -8,7 +8,7 @@
     li {display: list-item;text-align: -webkit-match-parent;}
     * {list-style:none;text-decoration:none;margin:0;padding:0;outline:0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;word-wrap:break-word;}
     *, :before, :after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-    a {color:#353535;font-family:'Open sans';}
+    a {color:#353535;font-family:'Roboto';}
     .clear {clear:both;}
     .widget {margin: 0;}
     .widget-item-control ,.blog-feeds ,.status-msg-body, .date-header, .post-feeds, .status-msg-border {display:none;}
@@ -723,3 +723,16 @@
     #layout .ads-bp:before{content:"ads"}
     #layout .ads-bp{border-top:2px dashed #48C4DC;margin-top:15px;padding-top:20px;border-bottom:2px dashed #48C4DC;margin-bottom:15px;padding-bottom:10px}
     #layout .footer-wrapper:before{content:"Footer"!important;margin-top:5px}
+
+/* Update
+------------------------------ */
+    #header-top a {
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+    }
+
+    #header-top a:hover {
+        color: #ee532e;        
+    }
