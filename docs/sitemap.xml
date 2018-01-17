@@ -3,140 +3,140 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://armanin.space/</loc>
+    <loc>http://localhost:1313/</loc>
   </url>
   
   <url>
-    <loc>https://armanin.space/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url>
   
   <url>
-    <loc>https://armanin.space/1/areas-swept-up-by-spirals/</loc>
+    <loc>http://localhost:1313/1/areas-swept-up-by-spirals/</loc>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/bayesian/</loc>
+    <loc>http://localhost:1313/categories/bayesian/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/bernoulli/</loc>
+    <loc>http://localhost:1313/categories/bernoulli/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/beta/</loc>
+    <loc>http://localhost:1313/categories/beta/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/binomial/</loc>
+    <loc>http://localhost:1313/categories/binomial/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/conjugate/</loc>
+    <loc>http://localhost:1313/categories/conjugate/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/decision-rule/</loc>
+    <loc>http://localhost:1313/categories/decision-rule/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/elementary/</loc>
+    <loc>http://localhost:1313/categories/elementary/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/geometric/</loc>
+    <loc>http://localhost:1313/categories/geometric/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/hypergeometric/</loc>
+    <loc>http://localhost:1313/categories/hypergeometric/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/multinomial/</loc>
+    <loc>http://localhost:1313/categories/multinomial/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/negative-binomial/</loc>
+    <loc>http://localhost:1313/categories/negative-binomial/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/1/notes-on-bernoulli/</loc>
+    <loc>http://localhost:1313/1/notes-on-bernoulli/</loc>
   </url>
   
   <url>
-    <loc>https://armanin.space/1/notes-on-the-binomial-distribution/</loc>
+    <loc>http://localhost:1313/1/notes-on-the-binomial-distribution/</loc>
   </url>
   
   <url>
-    <loc>https://armanin.space/1/notes-on-the-geometric-distribution/</loc>
+    <loc>http://localhost:1313/1/notes-on-the-geometric-distribution/</loc>
   </url>
   
   <url>
-    <loc>https://armanin.space/1/notes-on-the-hypergeometric-distribution/</loc>
+    <loc>http://localhost:1313/1/notes-on-the-hypergeometric-distribution/</loc>
   </url>
   
   <url>
-    <loc>https://armanin.space/1/notes-on-the-multinomial-distribution/</loc>
+    <loc>http://localhost:1313/1/notes-on-the-multinomial-distribution/</loc>
   </url>
   
   <url>
-    <loc>https://armanin.space/1/notes-on-the-negative-binomial-distribution/</loc>
+    <loc>http://localhost:1313/1/notes-on-the-negative-binomial-distribution/</loc>
   </url>
   
   <url>
-    <loc>https://armanin.space/1/notes-on-the-poisson-distribution/</loc>
+    <loc>http://localhost:1313/1/notes-on-the-poisson-distribution/</loc>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/poisson/</loc>
+    <loc>http://localhost:1313/categories/poisson/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/posterior/</loc>
+    <loc>http://localhost:1313/categories/posterior/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/1/exploring-the-evolution-of-a-beta-distribition-with-the-arrival-of-data/</loc>
+    <loc>http://localhost:1313/1/exploring-the-evolution-of-a-beta-distribition-with-the-arrival-of-data/</loc>
   </url>
   
   <url>
-    <loc>https://armanin.space/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/probability/</loc>
+    <loc>http://localhost:1313/categories/probability/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/1/simple-example-of-decision-rules-admissibility/</loc>
+    <loc>http://localhost:1313/1/simple-example-of-decision-rules-admissibility/</loc>
   </url>
   
   <url>
-    <loc>https://armanin.space/categories/statistics/</loc>
+    <loc>http://localhost:1313/categories/statistics/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://armanin.space/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <priority>0</priority>
   </url>
   

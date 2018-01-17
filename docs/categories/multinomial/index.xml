@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Multinomial on Arman Anwar -- Lost in Space</title>
-    <link>https://armanin.space/categories/multinomial/</link>
+    <link>http://localhost:1313/categories/multinomial/</link>
     <description>Recent content in Multinomial on Arman Anwar -- Lost in Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://armanin.space/categories/multinomial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/multinomial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Notes on the Multinomial distribution</title>
-      <link>https://armanin.space/1/notes-on-the-multinomial-distribution/</link>
+      <link>http://localhost:1313/1/notes-on-the-multinomial-distribution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/1/notes-on-the-multinomial-distribution/</guid>
+      <guid>http://localhost:1313/1/notes-on-the-multinomial-distribution/</guid>
       <description>A multidimensional generalization of a binomial distribution. Assume that in each experiment there are \(k\) possible outcomes (enumerated by \(1,2,\ldots,k\)). Probabilities of these outcomes are \(p_1,p_2,\ldots,p_k,\) so that \[ p_1,\ldots,p_k\geq 0, \ p_1+\ldots+p_k=1. \] Multinomial distribution describeds the number of outcomes of each type in \(n\) independent repetitions of the experiment:
 \((X_1,\ldots,X_k)=(m_1,\ldots,m_k)\) if exactly \(m_1\) experiments resulted in the outcome \(1,\) exactly \(m_2\) experiments resulted in the outcome \(2,\ldots,\) exactly \(m_k\) experiments resulted in the outcome \(k.</description>
     </item>

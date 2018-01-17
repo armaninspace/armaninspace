@@ -2,146 +2,146 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Arman Anwar -- Lost in Space</title>
-    <link>https://armanin.space/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Arman Anwar -- Lost in Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://armanin.space/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bayesian</title>
-      <link>https://armanin.space/categories/bayesian/</link>
+      <link>http://localhost:1313/categories/bayesian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/bayesian/</guid>
+      <guid>http://localhost:1313/categories/bayesian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bernoulli</title>
-      <link>https://armanin.space/categories/bernoulli/</link>
+      <link>http://localhost:1313/categories/bernoulli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/bernoulli/</guid>
+      <guid>http://localhost:1313/categories/bernoulli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Beta</title>
-      <link>https://armanin.space/categories/beta/</link>
+      <link>http://localhost:1313/categories/beta/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/beta/</guid>
+      <guid>http://localhost:1313/categories/beta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Binomial</title>
-      <link>https://armanin.space/categories/binomial/</link>
+      <link>http://localhost:1313/categories/binomial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/binomial/</guid>
+      <guid>http://localhost:1313/categories/binomial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conjugate</title>
-      <link>https://armanin.space/categories/conjugate/</link>
+      <link>http://localhost:1313/categories/conjugate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/conjugate/</guid>
+      <guid>http://localhost:1313/categories/conjugate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decision Rule</title>
-      <link>https://armanin.space/categories/decision-rule/</link>
+      <link>http://localhost:1313/categories/decision-rule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/decision-rule/</guid>
+      <guid>http://localhost:1313/categories/decision-rule/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elementary</title>
-      <link>https://armanin.space/categories/elementary/</link>
+      <link>http://localhost:1313/categories/elementary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/elementary/</guid>
+      <guid>http://localhost:1313/categories/elementary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geometric</title>
-      <link>https://armanin.space/categories/geometric/</link>
+      <link>http://localhost:1313/categories/geometric/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/geometric/</guid>
+      <guid>http://localhost:1313/categories/geometric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hypergeometric</title>
-      <link>https://armanin.space/categories/hypergeometric/</link>
+      <link>http://localhost:1313/categories/hypergeometric/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/hypergeometric/</guid>
+      <guid>http://localhost:1313/categories/hypergeometric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multinomial</title>
-      <link>https://armanin.space/categories/multinomial/</link>
+      <link>http://localhost:1313/categories/multinomial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/multinomial/</guid>
+      <guid>http://localhost:1313/categories/multinomial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Negative Binomial</title>
-      <link>https://armanin.space/categories/negative-binomial/</link>
+      <link>http://localhost:1313/categories/negative-binomial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/negative-binomial/</guid>
+      <guid>http://localhost:1313/categories/negative-binomial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Poisson</title>
-      <link>https://armanin.space/categories/poisson/</link>
+      <link>http://localhost:1313/categories/poisson/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/poisson/</guid>
+      <guid>http://localhost:1313/categories/poisson/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posterior</title>
-      <link>https://armanin.space/categories/posterior/</link>
+      <link>http://localhost:1313/categories/posterior/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/posterior/</guid>
+      <guid>http://localhost:1313/categories/posterior/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Probability</title>
-      <link>https://armanin.space/categories/probability/</link>
+      <link>http://localhost:1313/categories/probability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/probability/</guid>
+      <guid>http://localhost:1313/categories/probability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistics</title>
-      <link>https://armanin.space/categories/statistics/</link>
+      <link>http://localhost:1313/categories/statistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/categories/statistics/</guid>
+      <guid>http://localhost:1313/categories/statistics/</guid>
       <description></description>
     </item>
     

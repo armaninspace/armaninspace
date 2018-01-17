@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Binomial on Arman Anwar -- Lost in Space</title>
-    <link>https://armanin.space/categories/binomial/</link>
+    <link>http://localhost:1313/categories/binomial/</link>
     <description>Recent content in Binomial on Arman Anwar -- Lost in Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://armanin.space/categories/binomial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/binomial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Notes on the Binomial distribution</title>
-      <link>https://armanin.space/1/notes-on-the-binomial-distribution/</link>
+      <link>http://localhost:1313/1/notes-on-the-binomial-distribution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/1/notes-on-the-binomial-distribution/</guid>
+      <guid>http://localhost:1313/1/notes-on-the-binomial-distribution/</guid>
       <description>Binomial distribution describes the number of successes in a series of \(n\) independent identical experiments: \(X=k\) if exactly \(k\) experiments out of \(n\) were successfull, while others were not.
 Parameters: \(n\) – number of experiments, \(p\) – probability of a success in a single experiment.
 Values: \(\{0,1,2,\ldots,n\}.\)

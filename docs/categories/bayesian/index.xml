@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bayesian on Arman Anwar -- Lost in Space</title>
-    <link>https://armanin.space/categories/bayesian/</link>
+    <link>http://localhost:1313/categories/bayesian/</link>
     <description>Recent content in Bayesian on Arman Anwar -- Lost in Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://armanin.space/categories/bayesian/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/bayesian/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Posterior Beta Distribition evolution</title>
-      <link>https://armanin.space/1/exploring-the-evolution-of-a-beta-distribition-with-the-arrival-of-data/</link>
+      <link>http://localhost:1313/1/exploring-the-evolution-of-a-beta-distribition-with-the-arrival-of-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/1/exploring-the-evolution-of-a-beta-distribition-with-the-arrival-of-data/</guid>
+      <guid>http://localhost:1313/1/exploring-the-evolution-of-a-beta-distribition-with-the-arrival-of-data/</guid>
       <description>rm(list=ls()) set.seed(1010101) theta &amp;lt;- 0.5 N &amp;lt;- 200 data &amp;lt;- rbinom(N,1,theta) a &amp;lt;- 1 b &amp;lt;- 1 for (i in 1:N){ # suppose patients are treated one-by-one if (i &amp;lt; 10 || i %% 10 == 1 ) { theta.x &amp;lt;- seq(0.01, .99, 0.01) p.y &amp;lt;- dbeta(theta.x,a,b) plot(theta.x,p.y,main = paste(&amp;quot;N=&amp;quot;,i,&amp;quot;a=&amp;quot;,a,&amp;quot;b=&amp;quot;,b),type=&amp;quot;l&amp;quot;) } if (data[i]==1){ # if the i-th is cured by the treatment # basically add 1 to a for X===1 a &amp;lt;- a + 1 } else { # if the i-th is NOT cured by the treatment # basically add 1 to b for X===0 b &amp;lt;- b + 1 } # probability of theta&amp;gt;1/2 based on the posterior distribution Ptheta &amp;lt;- 1 - pbeta(0.</description>
     </item>
     
     <item>
       <title>Simple Example on a Decision Rules, Admissibility, etc.</title>
-      <link>https://armanin.space/1/simple-example-of-decision-rules-admissibility/</link>
+      <link>http://localhost:1313/1/simple-example-of-decision-rules-admissibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armanin.space/1/simple-example-of-decision-rules-admissibility/</guid>
+      <guid>http://localhost:1313/1/simple-example-of-decision-rules-admissibility/</guid>
       <description>We start with \(\theta&amp;gt;0\) and \(E[X|\theta]=\theta\) and \(Var[X|\theta]=\theta^2\)
 We have a class of decision rules that are \(S=\{\delta_c(X)=cX, 0 &amp;lt; c &amp;lt; 1\}\)
 and we’re give the standard squared loss funciton \(L(\theta,a) = (\theta - a)^2\)
